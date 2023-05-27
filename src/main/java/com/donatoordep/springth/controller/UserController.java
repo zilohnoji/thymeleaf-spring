@@ -23,9 +23,9 @@ public class UserController {
 	}
 	
 	@PostMapping(value = "/register")
-	public String insert(UserDTO dto) {
+	public ModelAndView insert(UserDTO dto) {
 		service.insert(dto);
-		return "register/registerUser";
+		return all();
 	}
 	
 	@GetMapping(value = "/all")

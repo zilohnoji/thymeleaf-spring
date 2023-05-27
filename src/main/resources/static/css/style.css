@@ -1,0 +1,162 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&display=swap')
+	;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	background-color: #13111C;
+}
+
+main {
+	height: 100vh;
+	width: 100vw;
+}
+
+/* <-- Inicio Header -->*/
+nav {
+	height: 100%;
+	width: 10rem;
+}
+
+li {
+	display: inline-block;
+}
+
+nav ul {
+	justify-content: space-around;
+	display: flex;
+}
+
+nav ul li a {
+	border: none;
+	transition: border-bottom 0.5s ease;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px red solid;
+}
+
+header {
+	justify-content: space-between;
+	display: flex;
+}
+
+.title {
+	background-image: linear-gradient(to right, rgb(0 226 255/ 48%),
+		rgb(89, 44, 122));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: 'Russo One', sans-serif;
+}
+
+.content-title {
+	margin-left: 3rem;
+}
+
+.content-nav {
+	margin-right: 4rem;
+}
+
+.content-header {
+	padding: 8px;
+	height: 3rem;
+	width: 100%;
+	flex-direction: row-reverse;
+	align-items: center;
+	display: flex;
+}
+
+.content-main {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.tableList {
+	margin-top: 3rem;
+	width: 50%;
+	border: 1px solid black;
+	background-color: #33303D;
+}
+
+th {
+	color: white;
+	font-weight: 500;
+	background-color: #13111C;
+	border: none;
+}
+
+td {
+	color: white;
+	text-align: center;
+	border: none;
+	background-color: #13111C;
+}
+
+.data-input {
+	width: 20rem;
+	height: 2rem;
+	margin-bottom: 1rem;
+	outline: none;
+	background-color: #13111C;
+	border: none;
+	border-bottom: 1px solid #55B95E;
+	display: block;
+	padding: 6px;
+}
+
+.form-content {
+	margin-top: 3rem;
+	width: 30rem;
+	height: 15rem;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	display: flex;
+}
+
+.data-button {
+	width: 6.5rem;
+	height: 2rem;
+	color: black;
+	background-color: #55B95E;
+	border: none;
+	border-radius: 3px;
+	margin-right: 10rem;
+}
+
+.data-button:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.row-main {
+	justify-content: space-around;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button-home {
+	text-decoration: none;
+}

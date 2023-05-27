@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="https://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" th:href="@{/css/style.css}">
+<title>Homepage</title>
+</head>
+
+
+<body>
+	<header class="content-header" style="z-index: 2;">
+		<div class="content-nav">
+			<nav>
+				<ul>
+					<li><a>Login</a></li>
+					<li><a href="user/register">Register</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="content-title">
+			<h1 class="title">Thymeleaf-MVC</h1>
+		</div>
+	</header>
+
+	<main class="content-main">
+		<img th:src="@{images/737400.jpg}"
+			style="height: 100%; width: 100%; z-index: 0;" />
+	</main>
+
+
+</body>
+
+</html>
